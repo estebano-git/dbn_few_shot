@@ -1,9 +1,9 @@
-# Overview and implementation of a Deep Belief Network (DBN)
+# Overview and implementation of a Deep Belief Network (DBN) for image classification, reconstruction and adversial attack performance
 ## Introduction
 The biological inspiration of Articial Neural Networks as well as a brief theoretical background of DBNs is given.
 A DBN can be seen as the stacking of several Restricted Boltzmann Machines, having the advantage of RBMs which learn a representation of the data through unsupervised learning. A linear classifier can be coupled to the last layer to have a linear readout for e.g. classification.
 ## Implementation
-A DBN is trained using the FashionMNIST dataset
+A DBN is trained using the **FashionMNIST** dataset
 ## Visual processing
 Learned weights through the layers are visualized to observe what the model has learned. 
 ## Linear read outs
